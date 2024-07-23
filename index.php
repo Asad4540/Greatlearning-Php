@@ -17,11 +17,24 @@ marks();
 
 //Global variable
 $score = 50;
-
 function scorecard()
 {
     global $score;
     echo "global variable score is : " . $score;
+    echo "</br>";
+}
+scorecard();
+
+echo "global score : $score </br>"; //another way of writing echo
+echo ("Parenthesis Echo : $score </br></br>");
+
+//Static variable
+function staticc() {
+    static $marks = 10;
+    $marks++;
+    echo "static marks is : $marks </br>";
 }
 
-scorecard();
+staticc();//value goes on increasing as long as you keep function executing
+staticc();
+staticc();

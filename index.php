@@ -38,3 +38,4 @@ function staticc() {
 staticc();//value goes on increasing as long as you keep function executing
 staticc();
 staticc();
+

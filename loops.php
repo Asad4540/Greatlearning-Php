@@ -13,7 +13,6 @@ echo"</br>";
 echo"while loop</br>";
 
 
-
 $a=0;
 while($a<7){
     echo $a;
